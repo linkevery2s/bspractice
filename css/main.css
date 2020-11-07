@@ -10,7 +10,7 @@ html,body{
 }
 
 #contents{
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,238,255,0.9);
 }
 
 #header{
@@ -20,4 +20,13 @@ html,body{
 	padding-top: 30px;
 	color: #fff;
 	font-size: 25px;
+}
+
+h2{
+	margin-top: 10px;
+}
+h2:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f303  ';
+  font-weight: 900;
 }
